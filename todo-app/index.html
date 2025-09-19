@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Todo App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="todo-app">
+    <h1>My Todo App</h1>
+    <input type="text" id="newTodo" placeholder="Add new todo...">
+    <button id="addTodoBtn">Add</button>
+
+    <input type="text" id="searchTodo" placeholder="Search todos...">
+    <select id="filterTodos">
+      <option value="all">All</option>
+      <option value="active">Active</option>
+      <option value="completed">Completed</option>
+    </select>
+
+    <ul id="todoList"></ul>
+
+    <p id="todoCounter"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
